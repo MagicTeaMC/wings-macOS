@@ -17,7 +17,7 @@ jobs:
       matrix:
         os: [macos-latest]
         go: ["1.22.5"]
-        goos: [macos]
+        goos: [darwin]
         goarch: [amd64, arm64]
 
     steps:
